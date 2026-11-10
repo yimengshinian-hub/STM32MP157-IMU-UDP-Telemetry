@@ -4,6 +4,14 @@
 
 > 这是一个设备采集与 UDP 遥测原型，不是 Linux 内核驱动或工业级网关。传感器数据尚未完成校准；项目目前不包含 Web 页面、TCP、陀螺仪采集或姿态估计算法。
 
+## 📸 效果展示
+
+<p align="center">
+  <img width="1428" height="841" alt="image" src="https://github.com/user-attachments/assets/e41f4aff-596c-43bb-9f40-d121f6f2bf4e" />
+  <br>
+  <em>图：板端 C++ 程序（左）精准采集并发送 UDP 数据，Windows 端 Python 接收程序（右）实时解析数据包。</em>
+</p>
+
 ## 数据链路
 
 ```text
